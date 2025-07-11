@@ -1,0 +1,249 @@
+{
+    "timestamp": "2025-07-11T10:58:02.045270",
+    "suspicious_processes": [
+        {
+            "pid": 0,
+            "name": "System Idle Process",
+            "cmdline": "",
+            "cpu_percent": 1345.9,
+            "memory_percent": 4.947881490321697e-05,
+            "create_time": null,
+            "reason": "Abnormally high CPU usage (1345.9%)"
+        }
+    ],
+    "suspicious_connections": [
+        {
+            "laddr": "127.0.0.1:61116",
+            "raddr": "127.0.0.1:5000",
+            "status": "TIME_WAIT",
+            "pid": 0,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:61124",
+            "raddr": "127.0.0.1:5000",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49730",
+            "raddr": "127.0.0.1:49707",
+            "status": "ESTABLISHED",
+            "pid": 18356,
+            "reason": "Connection to unusual high port range (49707); Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:61120",
+            "raddr": "127.0.0.1:5000",
+            "status": "TIME_WAIT",
+            "pid": 0,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49671",
+            "raddr": "127.0.0.1:1042",
+            "status": "ESTABLISHED",
+            "pid": 9712,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49677",
+            "raddr": "127.0.0.1:9012",
+            "status": "ESTABLISHED",
+            "pid": 13676,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:5000",
+            "raddr": "127.0.0.1:61124",
+            "status": "ESTABLISHED",
+            "pid": 4956,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:1042",
+            "raddr": "127.0.0.1:49671",
+            "status": "ESTABLISHED",
+            "pid": 11668,
+            "reason": "Connection to unusual high port range (49671); Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:65001",
+            "raddr": "127.0.0.1:49695",
+            "status": "ESTABLISHED",
+            "pid": 5340,
+            "reason": "Connection to unusual high port range (49695); Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "::1:61079",
+            "raddr": "::1:8080",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Connection to common mining port 8080"
+        },
+        {
+            "laddr": "127.0.0.1:61125",
+            "raddr": "127.0.0.1:5000",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:5000",
+            "raddr": "127.0.0.1:61121",
+            "status": "ESTABLISHED",
+            "pid": 4956,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "192.168.2.112:60719",
+            "raddr": "199.232.105.140:443",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Multiple connections (4) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49670",
+            "raddr": "127.0.0.1:1042",
+            "status": "ESTABLISHED",
+            "pid": 11036,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49669",
+            "raddr": "127.0.0.1:13030",
+            "status": "ESTABLISHED",
+            "pid": 6152,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "192.168.2.112:60717",
+            "raddr": "199.232.105.140:443",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Multiple connections (4) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49695",
+            "raddr": "127.0.0.1:65001",
+            "status": "ESTABLISHED",
+            "pid": 5340,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:5000",
+            "raddr": "127.0.0.1:61125",
+            "status": "ESTABLISHED",
+            "pid": 4956,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49676",
+            "raddr": "127.0.0.1:50100",
+            "status": "ESTABLISHED",
+            "pid": 13676,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:61095",
+            "raddr": "127.0.0.1:5000",
+            "status": "TIME_WAIT",
+            "pid": 0,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:49707",
+            "raddr": "127.0.0.1:49730",
+            "status": "ESTABLISHED",
+            "pid": 10800,
+            "reason": "Connection to unusual high port range (49730); Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:61117",
+            "raddr": "127.0.0.1:5000",
+            "status": "TIME_WAIT",
+            "pid": 0,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:61121",
+            "raddr": "127.0.0.1:5000",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "192.168.2.112:60716",
+            "raddr": "199.232.105.140:443",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Multiple connections (4) to same IP"
+        },
+        {
+            "laddr": "192.168.2.112:60709",
+            "raddr": "199.232.105.140:443",
+            "status": "ESTABLISHED",
+            "pid": 2132,
+            "reason": "Multiple connections (4) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:50100",
+            "raddr": "127.0.0.1:49676",
+            "status": "ESTABLISHED",
+            "pid": 6116,
+            "reason": "Connection to unusual high port range (49676); Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:61112",
+            "raddr": "127.0.0.1:5000",
+            "status": "TIME_WAIT",
+            "pid": 0,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:5000",
+            "raddr": "127.0.0.1:61111",
+            "status": "TIME_WAIT",
+            "pid": 0,
+            "reason": "Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:9012",
+            "raddr": "127.0.0.1:49677",
+            "status": "ESTABLISHED",
+            "pid": 11036,
+            "reason": "Connection to unusual high port range (49677); Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:13030",
+            "raddr": "127.0.0.1:49669",
+            "status": "ESTABLISHED",
+            "pid": 6152,
+            "reason": "Connection to unusual high port range (49669); Multiple connections (26) to same IP"
+        },
+        {
+            "laddr": "127.0.0.1:1042",
+            "raddr": "127.0.0.1:49670",
+            "status": "ESTABLISHED",
+            "pid": 11668,
+            "reason": "Connection to unusual high port range (49670); Multiple connections (26) to same IP"
+        }
+    ],
+    "total_flags": 32,
+    "verdict": "HIGH RISK: Strong indicators of cryptojacking activity detected!",
+    "scan_summary": {
+        "processes_flagged": 1,
+        "connections_flagged": 31,
+        "high_risk_indicators": 32,
+        "medium_risk_indicators": 0,
+        "risk_level": "HIGH"
+    },
+    "detection_methods": [
+        "Dynamic CPU usage analysis",
+        "Process name and command line inspection",
+        "Network connection pattern analysis",
+        "Resource consumption monitoring",
+        "Behavioral anomaly detection"
+    ]
+}

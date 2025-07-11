@@ -1,0 +1,15 @@
+{
+    "filename": "MetasploitWordlist-1632491116676.txt",
+    "filesize_bytes": 2233,
+    "filesize_human": "2.18 KB",
+    "sha256": "4bf766f4b471c5d2506859f5dcdd73962a64b91b2596e5385113c225f6a2ef4f",
+    "entropy": 4.7549,
+    "keywords_matched": [],
+    "filename_suspicious": false,
+    "verdict": "Clean",
+    "risk_level": "LOW",
+    "analysis": [
+        "No obvious cryptojacking indicators found"
+    ],
+    "timestamp": "2025-07-09T23:35:16.004487"
+}

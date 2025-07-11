@@ -1,0 +1,18 @@
+{
+    "filename": "cryptojacking-report-2025-07-11.json",
+    "filesize_bytes": 6981,
+    "filesize_human": "6.82 KB",
+    "sha256": "d57804c5fc3256142064b2b4b0c44c8efc2955330a8bd8a0e54368a05d3a898e",
+    "entropy": 4.6785,
+    "keywords_matched": [
+        "crypto"
+    ],
+    "filename_suspicious": true,
+    "verdict": "Suspicious",
+    "risk_level": "MEDIUM",
+    "analysis": [
+        "Contains cryptomining keywords: crypto",
+        "Suspicious filename pattern detected"
+    ],
+    "timestamp": "2025-07-11T10:58:28.457791"
+}
