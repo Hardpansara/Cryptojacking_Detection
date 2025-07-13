@@ -56,7 +56,8 @@ A comprehensive real-time system monitoring and security analysis dashboard buil
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Hardpansara/Cryptojacking_Detection.git
-cd system-monitor-dashboard
+cd Cryptojacking_Detection
+
 ```
 
 ### 2. Frontend Setup
