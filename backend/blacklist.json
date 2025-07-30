@@ -1,4 +1,3 @@
-
 {
   "processes": [
     "xmrig",
@@ -20,7 +19,19 @@
     "gminer",
     "nbminer",
     "lolminer",
-    "teamredminer"
+    "teamredminer",
+    "winserv.exe",
+    "svhost.exe",
+    "update.exe",
+    "conhost64.exe",
+    "mshelper",
+    "kworkerds",
+    "sysupdate",
+    "nmapminer",
+    "taskhosts",
+    "intelserviceupdates",
+    "cronos",
+    "daemonminer"
   ],
   "domains": [
     "minexmr.com",
@@ -36,7 +47,18 @@
     "nanopool.org",
     "f2pool.com",
     "antpool.com",
-    "slushpool.com"
+    "slushpool.com",
+    "cryptonight-hub.moneroworld.com",
+    "minergate.com",
+    "mine.xmrpool.net",
+    "hashvault.pro",
+    "hash-to-coins.com",
+    "proxyxmr.net",
+    "superxmr.com",
+    "2miners.com",
+    "cryptopool.party",
+    "nicehash.com",
+    "zergpool.com"
   ],
   "ports": [
     3333,
@@ -52,6 +74,61 @@
     9999,
     10001,
     14433,
-    25565
+    25565,
+    16888,
+    10443,
+    13531,
+    9990,
+    20550,
+    19999,
+    1080
+  ],
+  "cmdline_keywords": [
+    "stratum+tcp",
+    "donate-level",
+    "--algo",
+    "--url",
+    "--user",
+    "--pass",
+    "--coin",
+    "--rig-id",
+    "-o stratum",
+    "-u",
+    "-p",
+    "--tls",
+    "--daemon",
+    "--background",
+    "--no-color",
+    "--randomx-mode",
+    "--cpu-priority",
+    "autostart",
+    "stealth",
+    "crypto mining",
+    "start-mining",
+    "init miner",
+    "silentminer",
+    "hidden mining",
+    "xmr-stak"
+  ],
+  "file_indicators": [
+    "xmrig.exe",
+    "config.json",
+    ".xmr",
+    ".mining",
+    "start.bat",
+    "run_miner.sh",
+    "autorun.inf",
+    "winxmr",
+    "xmr-service",
+    "mshelper",
+    "payload.bin",
+    "monero-start",
+    "bootxmr",
+    "init-xmr",
+    "install.bat",
+    "cpu_miner",
+    "crypto_miner",
+    "worker.conf",
+    "xmr-config"
   ]
 }
